@@ -15,17 +15,17 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" id="main-nav">
+        <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Link2</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Link3</a></li>
+                <li class="nav-item"><a class="nav-link" href="#link1">Over mij</a></li>
+                <li class="nav-item"><a class="nav-link" href="#link2">Projecten</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Currucilum Vitae</a></li>
             </ul>
         </div>
         </nav>
@@ -34,16 +34,24 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12 text-center">
-                    <h1 class="font-weight-light text-white">Portfolio.</h1>
-                    <p class="lead text-white">By Senna Terpstra</p>
+                    <h1 class="font-weight-light text-white display-1">Portfolio.</h1>
+                    <!--<p class="lead text-white">By Senna Terpstra</p>-->
+                    <button class="btn btn-light btn-lg"><a class="nav-link" href="#link1">Over mij!</a></button>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="py-5">
-  <div class="container">
+    <section class="py-5 test1" id="link1">
+  <div class="container h-100">
     <h2 class="font-weight-light">Page Content</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
+  </div>
+</section>
+
+<section class="py-5 test2" id="link2">
+  <div class="container">
+    <h2 class="font-weight-light">Page Content 2</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
   </div>
 </section>
