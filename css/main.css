@@ -12,7 +12,7 @@
   }
 
   #main-nav{
-      background-color: black;
+      background-color: #0009;
   }
 
   nav .navbar-nav li a{
@@ -22,9 +22,9 @@
     }
 
     .test1{
-        height: 50vh;
+        height: 70vh;
     }
 
     .test2{
-        height: 50vh;
+        height: 70vh;
     }
