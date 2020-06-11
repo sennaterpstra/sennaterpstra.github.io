@@ -69,9 +69,9 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/projectimage.jpg">
+                        <img class="card-img-top" src="assets/maakhetgetal.jpg">
                         <div class="card-body text-center">
-                            <h5 class="card-title projecttitle">Project titel</h5>
+                            <h5 class="card-title projecttitle">Maak het getal</h5>
                             <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal1">Meer info.</a>
                         </div>
                     </div>
