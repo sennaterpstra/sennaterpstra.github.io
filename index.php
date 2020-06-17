@@ -16,6 +16,10 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Modals -->
+    <?php
+        include 'modals.php';
+    ?>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="300">
     <!-- Navigation -->
@@ -78,19 +82,19 @@
                 </div>
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/projectimage.jpg">
+                        <img class="card-img-top" src="assets/tictactoe.png">
                         <div class="card-body text-center">
-                            <h5 class="card-title projecttitle">Project titel</h5>
-                            <a href="#" class="btn btn-primary">Meer info.</a>
+                            <h5 class="card-title projecttitle">Tic Tac Toe</h5>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal2">Meer info.</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/projectimage.jpg">
+                        <img class="card-img-top" src="assets/snakegame.png">
                         <div class="card-body text-center">
-                            <h5 class="card-title projecttitle">Project titel</h5>
-                            <a href="#" class="btn btn-primary">Meer info.</a>
+                            <h5 class="card-title projecttitle">Snake game</h5>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal3">Meer info.</a>
                         </div>
                     </div>
                 </div>
@@ -125,40 +129,14 @@
 </body>
 <!-- Footer-->
 <footer class="footer py-4 bg-light">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © Portfolio Senna Terpstra 2020</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/senna.terpstra/"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/sennaterpstra/"><i class="fab fa-instagram"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-left"></div>
-                </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-left">Copyright © Portfolio Senna Terpstra 2020</div>
+            <div class="col-lg-4 my-3 my-lg-0">
+                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/senna.terpstra/"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/sennaterpstra/"><i class="fab fa-instagram"></i></a>
             </div>
-        </footer>
-        <!-- Portfolio Modals--><!-- Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here-->
-                                    <h2 class="text-uppercase">Project naam</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/projectimage.jpg" alt="" />
-                                    <p>Informatie project <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-                                    <ul class="list-inline">
-                                        <li>Datum: 01-05-2019 tot 01-06-2019</li>
-                                        <li>Klant: Basisschool de vlinder</li>
-                                        <li>Categorie: Onderwijs</li>
-                                    </ul>
-                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close Project</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-4 text-lg-left"></div>
             </div>
         </div>
+    </footer>
 </html>
