@@ -1,6 +1,6 @@
 <!-- Portfolio Modals--><!-- Modal 1-->
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -27,7 +27,7 @@
         </div>
         <!-- Portfolio Modals--><!-- Modal 2-->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -53,7 +53,7 @@
         </div>
         <!-- Portfolio Modals--><!-- Modal 3-->
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="container">
                         <div class="row justify-content-center">

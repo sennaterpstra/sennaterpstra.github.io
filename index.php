@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <!-- Font awesome icons -->
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
@@ -61,7 +61,7 @@
                 </p>
             </div>
             <div class="col-5">
-                <img class="projectimg" src="assets/portraitplaceholder.png">
+                <img class="projectimg" src="assets/foto.jpg">
             </div>
         </div>
     </div>
@@ -73,7 +73,7 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/maakhetgetal.jpg">
+                        <img class="card-img-top projectimage" src="assets/maakhetgetal.jpg">
                         <div class="card-body text-center">
                             <h5 class="card-title projecttitle">Maak het getal</h5>
                             <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal1">Meer info.</a>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/tictactoe.png">
+                        <img class="card-img-top projectimage" src="assets/tictactoe.png">
                         <div class="card-body text-center">
                             <h5 class="card-title projecttitle">Tic Tac Toe</h5>
                             <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal2">Meer info.</a>
@@ -91,28 +91,10 @@
                 </div>
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/snakegame.png">
+                        <img class="card-img-top projectimage" src="assets/snakegame.png">
                         <div class="card-body text-center">
                             <h5 class="card-title projecttitle">Snake game</h5>
                             <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal3">Meer info.</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/projectimage.jpg">
-                        <div class="card-body text-center">
-                            <h5 class="card-title projecttitle">Project titel</h5>
-                            <a href="#" class="btn btn-primary">Meer info.</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/projectimage.jpg">
-                        <div class="card-body text-center">
-                            <h5 class="card-title projecttitle">Project titel</h5>
-                            <a href="#" class="btn btn-primary">Meer info.</a>
                         </div>
                     </div>
                 </div>

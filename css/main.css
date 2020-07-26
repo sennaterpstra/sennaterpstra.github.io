@@ -53,6 +53,10 @@ body{
     min-height: 50vh;
 }
 
-.projectimg{
+.projectimg {
     width: 100%;
+}
+
+.projectimage {
+    height: 12vw;
 }
